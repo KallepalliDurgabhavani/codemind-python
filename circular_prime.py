@@ -25,7 +25,7 @@ while(i<length):
     i+=1
 if(sum==length):
     print("circular prime")
-elif(isprime(num)):
+elif isprime(num):
     print("prime but not a circular prime")
 else:
     print("not prime")
