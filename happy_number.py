@@ -13,5 +13,5 @@ while(result != 1 and result != 4):
     result = isHappyNumber(result);    
 if(result == 1):    
     print(True);    
-elif(result == 4):    
+else:
     print(False);   
