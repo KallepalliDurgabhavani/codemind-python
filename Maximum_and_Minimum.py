@@ -1,10 +1,10 @@
 n=int(input())
 l=list(map(int,input().split()))
-e=[]
+t=[]
 for i in l:
     if l.count(i)==i:
-        e.append(i)
-if not e:
+        t.append(i)
+if not t:
     print(-1)
 else:
-    print(min(e),max(e),end=' ')
+    print(min(t),max(t),end=' ')
