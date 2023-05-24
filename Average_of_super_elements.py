@@ -1,5 +1,5 @@
 n=int(input())
-l=list(list(map(int,input().split())))
+l=list(map(int,input().split()))
 e=[]
 c=0
 for i in l:
