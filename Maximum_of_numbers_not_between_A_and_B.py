@@ -1,11 +1,13 @@
 n=int(input())
-a=list()
 l=list(map(int,input().split()))
-p,m=map(int,input().split())
-for i in range(0,n):
-    if l[i]<p or l[i]>m:
-        a.append(l[i])
-if a:
-    print(max(a))
+m,n=map(int,input().split())
+e=[]
+for i in l:
+    if i<m or i>n:
+        e.append(i)
+if e:
+    print(max(e))
 else:
     print(-1)
+    
+        
