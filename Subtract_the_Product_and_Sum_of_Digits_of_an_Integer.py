@@ -1,0 +1,9 @@
+n=int(input())
+s=0
+r=1
+while(n!=0):
+    re=n%10
+    s=s+re
+    r=r*re
+    n//=10
+print(abs(s-r))
