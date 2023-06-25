@@ -8,10 +8,10 @@ def prime(n):
     else:
         return 1
 n=int(input())
-c=0
+s=0
 for i in range(1,n+1):
-    if n%i==0 and prime(i):
-        c+=1
-print(c)
-        
+    if n%i==0:
+        if prime(i)==1:
+            s+=1
+print(s)
         
